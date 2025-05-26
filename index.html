@@ -1,0 +1,72 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://d502jbuhuh9wk.cloudfront.net/resources/stylesheets/quill.bubble.css?v=4">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="text-align: center; background-attachment: scroll; background-repeat: no-repeat;">
+  <meta charset="UTF-8">
+  <title>Certificate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 0;
+      background-color: #f9f9f9;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    .certificate-container {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .certificate-frame {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 70.7071%; /* This maintains the aspect ratio of the Canva embed */
+      /* Add background image styles here */
+    }
+    .certificate-frame img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      /* Optional: if you want the Canva content to overlay the background image,
+         you might need to set a background-color with some transparency for the iframe
+         or ensure the Canva design itself has a transparent background. */
+      background-color: rgba(255, 255, 255, 0); /* Example: fully transparent */
+    }
+    .name-overlay {
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Alex Brush', cursive;
+      font-size: 53px;
+      color: #000;
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 2; /* Ensure the name overlay is above the iframe if needed */
+    }
+  </style>
+  <link rel="stylesheet" href="https://d502jbuhuh9wk.cloudfront.net/staticfiles/resources/stylesheets/certistyle_35edc80f3c3c7bc7fa6d84b1e1a3b5d8.css?v=1">
+  <div class="certificate-container">
+    <div class="name-overlay" id="learnerName"></div>
+    <div class="certificate-frame">
+        <img src="https://d502jbuhuh9wk.cloudfront.net/courses/682f84ea2129cc75033d904b/vLHXSimage0.png" />
+      <iframe loading="lazy" src="https://www.canva.com/design/DAGoK3-9Szw/KuL93WqelPF-2GTEYoFHAw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"> </iframe>
+    </div>
+  </div>
+  <script>
+    const learnerName = "Balram Singh";
+    document.getElementById("learnerName").textContent = learnerName;
+  </script>
+</body>
+</html>

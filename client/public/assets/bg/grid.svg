@@ -1,0 +1,29 @@
+<svg width="756" height="651" viewBox="0 0 756 651" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.2" filter="url(#filter0_f_1_142)">
+<path d="M82.125 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M155.625 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M229.125 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M302.625 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M376.125 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M449.625 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M523.125 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M596.625 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M670.125 6V645" stroke="#182432" stroke-width="3"/>
+<path d="M6 60L750 60" stroke="#182432" stroke-width="3"/>
+<path d="M6 124.5L750 124.5" stroke="#182432" stroke-width="3"/>
+<path d="M6 187.5L750 187.5" stroke="#182432" stroke-width="3"/>
+<path d="M6 252L750 252" stroke="#182432" stroke-width="3"/>
+<path d="M6 316.5L750 316.5" stroke="#182432" stroke-width="3"/>
+<path d="M6 381L750 381" stroke="#182432" stroke-width="3"/>
+<path d="M6 444L750 444" stroke="#182432" stroke-width="3"/>
+<path d="M6 508.5L750 508.5" stroke="#182432" stroke-width="3"/>
+<path d="M6 573L750 573" stroke="#182432" stroke-width="3"/>
+</g>
+<defs>
+<filter id="filter0_f_1_142" x="0.3" y="0.3" width="755.4" height="650.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.85" result="effect1_foregroundBlur_1_142"/>
+</filter>
+</defs>
+</svg>

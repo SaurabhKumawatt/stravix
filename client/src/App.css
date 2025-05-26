@@ -1,8 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  /* below 319px */
+  --breakpoint-xs: 20.063rem;
+  /* 320px to 425px */
+  --breakpoint-sm: 26.625rem;
+  /* 425px to 768px */
+  --breakpoint-md: 48.063rem;
+  /* 768 to 1024px */
+  --breakpoint-lg: 64.063rem;
+  /* 1024 to max */
+}
+
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  overflow-x: hidden;
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .logo {
@@ -11,9 +27,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +58,34 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer utilities {
+  .trapezoid-shape-left {
+    --p: 50px;
+    clip-path: polygon(100% var(--p), 100% calc(100% - var(--p)), 0% 100%, 0% 0%);
+  }
+
+  .trapezoid-shape-right {
+    --p: 50px;
+    clip-path: polygon(0 var(--p), 0 calc(100% - var(--p)), 100% 100%, 100% 0);
+  }
+}
+.ytp-player {
+    background-color: #333;
+}
+
+.ytp-chrome-bottom,
+.ytp-chrome-top {
+    background-color: #333;
+    color: #fff;
 }
