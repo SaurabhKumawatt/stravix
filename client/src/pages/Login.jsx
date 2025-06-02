@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
+<<<<<<< HEAD
 import Header from '../components/Header';
+=======
+import Header from '../../components/Header';
+>>>>>>> a5cb570 (Implemented dashboard page with sidebar and created pages for sidebar options)
 import { Icon } from "@iconify/react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";

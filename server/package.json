@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+=======
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  
+>>>>>>> a5cb570 (Implemented dashboard page with sidebar and created pages for sidebar options)
   "keywords": [],
   "author": "",
   "license": "ISC",

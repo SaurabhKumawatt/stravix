@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import './tailwind.css';
+>>>>>>> a5cb570 (Implemented dashboard page with sidebar and created pages for sidebar options)
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -9,5 +13,9 @@ createRoot(document.getElementById('root')).render(
     <UserProvider>
     <App />
     </UserProvider>
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a5cb570 (Implemented dashboard page with sidebar and created pages for sidebar options)
   </StrictMode>,
 )

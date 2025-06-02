@@ -1,0 +1,12 @@
+.dashboard {
+    padding: 20px;
+}
+
+.sales-tracker,
+.bundlewise-tracker,
+.my-top-leads {
+    margin-bottom: 20px;
+} 
+h2 {
+    color: #333;
+}

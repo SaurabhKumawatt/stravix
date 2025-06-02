@@ -2,9 +2,17 @@
 @import "tailwindcss";
 
 
+<<<<<<< HEAD
 /* 🌐 Root Variables (for fallback usage or optional inline styles) */
 :root {
   --font-body: 'Poppins', sans-serif;
+=======
+
+/* 🌐 Root Variables (for fallback usage or optional inline styles) */
+:root {
+  --font-body: 'Poppins', sans-serif;
+  --breakpoint-3xl: 1920px;
+>>>>>>> a5cb570 (Implemented dashboard page with sidebar and created pages for sidebar options)
   --font-heading: 'Poppins', sans-serif;
   --font-body-size: 20px;
   --font-heading-size: 40px;
@@ -23,7 +31,19 @@
   --hero-top: #F6F2E7;
   --hero-bottom: #FFF2DA;
 }
+<<<<<<< HEAD
 
+=======
+@layer base{
+html {
+  font-family: var(--font-display);
+}
+body{
+  background-color: #fcfbfc;
+  overflow-x: hidden;
+}
+}
+>>>>>>> a5cb570 (Implemented dashboard page with sidebar and created pages for sidebar options)
 /* 🧼 Reset + Base Styling */
 *,
 *::before,
