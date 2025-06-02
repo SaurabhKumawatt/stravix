@@ -295,7 +295,8 @@ const Dashboard = () => {
           className="w-14 h-14 rounded-full flex items-center justify-center"
           style={{ backgroundColor: `${card.border}20` }}
         >
-          {card.icon}
+          {card.icon}git push origin branch-name
+
         </div>
       </div>
 
